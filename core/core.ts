@@ -19,7 +19,7 @@ app.get("/data",(req,res)=>{
 });
 
 //start the bot
-const observerbot = new Bot("Nzk1Mjg3MDA1OTc3MTE2Njgy.X_HKvQ.Q5sVds9b7Trkyj5L7-G-ParjUNM");
+const observerbot = new Bot("TOKEN");
 
 app.listen(port,()=>{
     console.log(`http server up on port ${port}`);
