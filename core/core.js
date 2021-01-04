@@ -19,7 +19,7 @@ app.get("/data", (req, res) => {
     res.send(`${observerbot.getLastMessage()} sent by ${observerbot.getLastUser()}`);
 });
 //start the bot
-const observerbot = new bot_1.Bot("Nzk1Mjg3MDA1OTc3MTE2Njgy.X_HKvQ.Q5sVds9b7Trkyj5L7-G-ParjUNM");
+const observerbot = new bot_1.Bot("TOKEN");
 app.listen(port, () => {
     console.log(`http server up on port ${port}`);
 });
